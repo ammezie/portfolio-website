@@ -25,4 +25,9 @@
     .uk-navbar-nav > li > a:focus {
         color: #eb3777
     }
+    .uk-navbar-item,
+    .uk-navbar-nav > li > a,
+    .uk-navbar-toggle {
+        font-family: 'PT Sans', "Helvetica Neue", Arial, sans-serif;
+    }
 </style>
