@@ -1,0 +1,28 @@
+<template>
+    <nav uk-navbar>
+        <div class="uk-navbar-left">
+            <a class="uk-navbar-item uk-logo" href="/">
+                <img src="~/assets/images/logo.png" alt="I'm Chimezie Enyinnaya, a Software Developer based in Lagos, Nigeria" width="35px">    
+            </a>
+        </div>
+
+        <div class="uk-navbar-right">
+            <ul class="uk-navbar-nav">
+                <li class="uk-active"><a href="/">Home</a></li>
+                <li><a href="/about">About</a></li>
+                <li><a href="/work">Work</a></li>
+                <li><a href="/blog">Blog</a></li>
+                <li><a href="/contact">Contact</a></li>
+            </ul>
+        </div>
+  </nav>
+</template>
+
+<style scoped>
+    .uk-navbar-nav > li.uk-active > a,
+    .uk-navbar-nav > li:hover > a,
+    .uk-navbar-nav >li > a.uk-open,
+    .uk-navbar-nav > li > a:focus {
+        color: #eb3777
+    }
+</style>
