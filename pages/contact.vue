@@ -18,12 +18,10 @@
 </template>
 
 <script>
-  import Intro from '../components/Home/Intro.vue'
   import SocialLinks from '../components/Home/SocialLinks.vue'
 
   export default {
     components: {
-      Intro,
       SocialLinks
     }
   }
