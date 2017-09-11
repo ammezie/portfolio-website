@@ -1,5 +1,5 @@
 <template>
-    <div class="uk-section uk-flex uk-flex-middle uk-text-center" uk-height-viewport="offset-top: true; offset-bottom: true" style="box-sizing: border-box; min-height: calc(100vh - 185px);">
+    <div class="uk-section uk-flex uk-flex-middle uk-text-center" uk-height-viewport="offset-top: true; offset-bottom: true">
         <div class="uk-width-1-1">
             <div class="uk-container">
                 <p class="uk-text-lead">

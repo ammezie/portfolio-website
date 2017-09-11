@@ -1,7 +1,9 @@
 <template>
   <div>
     <intro></intro>
-    <social-links></social-links>
+    <div class="uk-section-small">
+      <social-links></social-links>
+    </div>
   </div>
 </template>
 
@@ -17,5 +19,5 @@
   }
 </script>
 
-<style scoped>  
+<style scoped> 
 </style>
