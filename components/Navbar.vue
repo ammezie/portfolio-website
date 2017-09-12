@@ -7,7 +7,7 @@
         </div>
 
         <div class="uk-navbar-right">
-            <a class="uk-navbar-toggle uk-hidden@m" href="#offcanvas" uk-navbar-toggle-icon></a>
+            <div class="uk-navbar-toggle uk-hidden@m" uk-toggle="target: #offcanvas" uk-navbar-toggle-icon></div>
 
             <ul class="uk-navbar-nav uk-visible@m">
                 <li class="uk-active"><a href="/">Home</a></li>
@@ -31,5 +31,8 @@
     .uk-navbar-nav > li > a,
     .uk-navbar-toggle {
         font-family: 'PT Sans', "Helvetica Neue", Arial, sans-serif;
+    }
+    .uk-navbar-toggle {
+        cursor: pointer;
     }
 </style>
