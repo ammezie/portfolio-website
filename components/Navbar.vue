@@ -7,7 +7,9 @@
         </div>
 
         <div class="uk-navbar-right">
-            <ul class="uk-navbar-nav">
+            <a class="uk-navbar-toggle uk-hidden@m" href="#offcanvas" uk-navbar-toggle-icon></a>
+
+            <ul class="uk-navbar-nav uk-visible@m">
                 <li class="uk-active"><a href="/">Home</a></li>
                 <li><a href="/about">About</a></li>
                 <li><a href="/work">Work</a></li>

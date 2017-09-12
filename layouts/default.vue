@@ -1,10 +1,23 @@
 <template>
-  <div class="uk-section uk-padding-remove">
-    <div class="uk-container uk-container-expand">
-      <navbar></navbar>
-    </div>
+  <div class="uk-offcanvas-content">
+    <div class="uk-section uk-padding-remove">
+      <div class="uk-container uk-container-expand">
+        <navbar></navbar>
+      </div>
 
-    <nuxt/>
+      <nuxt/>
+      <div id="offcanvas" uk-offcanvas="mode: push; overlay: true">
+        <div class="uk-offcanvas-bar">
+          <ul class="uk-nav uk-nav-primary uk-nav-center">
+            <li class="uk-active"><a href="/">Home</a></li>
+            <li><a href="/about">About</a></li>
+            <li><a href="/work">Work</a></li>
+            <li><a href="/blog">Blog</a></li>
+            <li><a href="/contact">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
   </div>
 </template>
 
@@ -32,5 +45,16 @@
   
   .uk-link:hover, a:hover {
     color: #0086c2
+  }
+  .uk-offcanvas-bar {
+    background-color: #fff;
+  }
+  .uk-nav-primary > li > a {
+    color: #999 !important
+  }
+  .uk-nav-primary > li.uk-active > a,
+  .uk-nav-primary > li > a:focus, 
+  .uk-nav-primary > li > a:hover {
+    color: #eb3777 !important
   }
 </style>

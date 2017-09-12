@@ -1,7 +1,7 @@
 <template>
     <div class="uk-section uk-flex uk-flex-middle uk-text-center" uk-height-viewport="offset-top: true; offset-bottom: true">
-        <div class="uk-width-1-1">
-            <div class="uk-container">
+        <div class="uk-container">
+            <div class="uk-width-1-1">
                 <p class="uk-text-lead">
                     Hi, I'm Chimezie Enyinnaya
                 </p>
