@@ -29,6 +29,7 @@
   .uk-link, a {
     color: #eb3777
   }
+  
   .uk-link:hover, a:hover {
     color: #0086c2
   }

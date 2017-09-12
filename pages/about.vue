@@ -38,4 +38,7 @@
         background-size: auto 450px;
         background-position: 80% 0;
     }
+    a {
+        text-decoration: none
+    }
 </style>
