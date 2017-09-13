@@ -3,11 +3,11 @@ module.exports = {
   ** Headers of the page
   */
   head: {
-    title: 'portfolio-website',
+    title: 'I\'m Chimezie Enyinnaya, a Software Developer based in Lagos, Nigeria',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: 'My portfoil website' }
+      { hid: 'description', name: 'description', content: 'I\'m Chimezie Enyinnaya, a Software Developer based in Lagos, Nigeria' }
     ],
     link: [
       { rel: 'stylesheet', href: 'https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.30/css/uikit.min.css' },
@@ -41,5 +41,8 @@ module.exports = {
         })
       }
     }
-  }
+  },
+  modules: [
+    ['@nuxtjs/google-analytics', { ua: 'UA-106389620-1' }],
+  ]
 }
