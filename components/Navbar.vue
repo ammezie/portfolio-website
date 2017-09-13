@@ -2,7 +2,7 @@
     <nav uk-navbar>
         <div class="uk-navbar-left">
             <a class="uk-navbar-item uk-logo" href="/">
-                <img src="~/assets/images/logo.svg" alt="I'm Chimezie Enyinnaya, a Software Developer based in Lagos, Nigeria" width="30" uk-svg>    
+                <img src="~/assets/images/logo.png" alt="I'm Chimezie Enyinnaya, a Software Developer based in Lagos, Nigeria">
             </a>
         </div>
 
@@ -10,7 +10,7 @@
             <div class="uk-navbar-toggle uk-hidden@m" uk-toggle="target: #offcanvas" uk-navbar-toggle-icon></div>
 
             <ul class="uk-navbar-nav uk-visible@m">
-                <li class="uk-active"><a href="/">Home</a></li>
+                <li><a href="/">Home</a></li>
                 <li><a href="/about">About</a></li>
                 <li><a href="/work">Work</a></li>
                 <li><a href="/blog">Blog</a></li>
