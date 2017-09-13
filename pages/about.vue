@@ -13,7 +13,7 @@
                     </p>
 
                     <p>
-                        When I'm not programming, you'll find me listening to music or watching movies, yeah! you read right, I'm a movie 🎬 &nbsp;lover. I love playing football ⚽ ,&nbsp;volleyball 🏐 &nbsp;and table tennis 🏓 &nbsp;too (been a while I do these though). 
+                        When I'm not programming, you'll find me listening to music or watching movies, yeah! you read right, I'm a movie 🎬 &nbsp;lover. I love playing football ⚽ ,&nbsp;volleyball 🏐 &nbsp;and table tennis 🏓 &nbsp;too (been a while I did these though).
                     </p>
                 </div>
             </div>
