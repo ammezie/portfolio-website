@@ -55,7 +55,7 @@
     },
     created: function () {
       if (process.env.NODE_ENV === 'production') {
-        this.prodBaseUrl = 'http://chimezieenyinnaya.xyz'
+        this.prodBaseUrl = 'https://chimezieenyinnaya.xyz'
       } else {
         this.prodBaseUrl = 'http://localhost:3000'
       }
