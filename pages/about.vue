@@ -5,7 +5,7 @@
                 <h1 class="uk-heading-bullet">About Me</h1>
                 <div class="uk-width-1-2@s">
                     <p>
-                        My name is Chimezie Enyinnaya (AKA <span class="emphasis">mezie</span>), I’m a software developer based in Lagos, Nigeria. I build modern applications for the web! Though I do some frontend development, I enjoy working as a backend developer. I’m proficient with PHP (CodeIgniter, Laravel), JavaScript, NodeJS (Express, AdonisJS), VueJS. Recently, I have been exploring GraphQL.
+                        My name is Chimezie Enyinnaya (AKA <span class="emphasis">mezie</span>), I’m a software developer based in Lagos, Nigeria. I build 👨‍💻 modern applications for the web! Though I do some frontend development, I enjoy working as a backend developer. I’m proficient with PHP (CodeIgniter, Laravel), JavaScript, NodeJS (Express, AdonisJS), VueJS. Recently, I have been exploring GraphQL.
                     </p>
 
                     <p>
