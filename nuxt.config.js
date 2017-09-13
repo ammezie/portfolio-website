@@ -7,12 +7,7 @@ module.exports = {
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: 'I\'m Chimezie Enyinnaya, a Software Developer based in Lagos, Nigeria' },
-      { hid: 'twitter:card', name: 'twitter:card', content: 'summary' },
-      { hid: 'twitter:site', name: 'twitter:site', content: '@ammezie' },
-      { hid: 'twitter:title', name: 'twitter:title', content: 'I\'m Chimezie Enyinnaya, a Software Developer based in Lagos, Nigeria' },
-      { hid: 'twitter:description', name: 'twitter:description', content: 'I\'m Chimezie Enyinnaya, a Software Developer based in Lagos, Nigeria' },
-      { hid: 'twitter:image', name: 'twitter:image', content: '@/assets/images/logo.png' }
+      { hid: 'description', name: 'description', content: 'I\'m Chimezie Enyinnaya, a Software Developer based in Lagos, Nigeria' }
     ],
     link: [
       { rel: 'stylesheet', href: 'https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.30/css/uikit.min.css' },
@@ -48,6 +43,6 @@ module.exports = {
     }
   },
   modules: [
-    ['@nuxtjs/google-analytics', { ua: 'UA-106389620-1' }],
+    ['@nuxtjs/google-analytics', { ua: 'UA-106389620-1' }]
   ]
 }

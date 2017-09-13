@@ -23,14 +23,45 @@
 
 <script>
   import Navbar from '../components/Navbar.vue'
+  import Logo from '~/assets/images/logo.png'
 
   export default {
+    data () {
+      return {
+        prodBaseUrl: ''
+      }
+    },
     components: {
       Navbar
+    },
+    head () {
+      return {
+        meta: [
+          // Open Graph
+          { property: 'og:site_name', content: 'Chimezie Enyinnaya' },
+          { property: 'og:url', content: 'https://chimezieenyinnaya.xyz' },
+          { property: 'og:title', content: 'Chimezie Enyinnaya: a Software Developer based in Lagos, Nigeria' },
+          { property: 'og:description', content: 'I\'m Chimezie Enyinnaya, a Software Developer based in Lagos, Nigeria' },
+          { property: 'og:type', content: 'website' },
+          { property: 'og:image', content: this.prodBaseUrl + Logo },
+          // Twitter Card
+          { name: 'twitter:card', content: 'summary' },
+          { name: 'twitter:site', content: '@ammezie' },
+          { name: 'twitter:title', content: 'Chimezie Enyinnaya: a Software Developer based in Lagos, Nigeria' },
+          { name: 'twitter:description', content: 'I\'m Chimezie Enyinnaya, a Software Developer based in Lagos, Nigeria' },
+          { name: 'twitter:image', content: this.prodBaseUrl + Logo }
+        ]
+      }
+    },
+    created: function () {
+      if (process.env.NODE_ENV === 'production') {
+        this.prodBaseUrl = 'http://chimezieenyinnaya.xyz'
+      } else {
+        this.prodBaseUrl = 'http://localhost:3000'
+      }
     }
   }
 </script>
-
 
 <style>
   html {
