@@ -2,7 +2,7 @@
     <nav uk-navbar>
         <div class="uk-navbar-left">
             <a class="uk-navbar-item uk-logo" href="/">
-                <img src="~/assets/images/logo.svg" alt="I'm Chimezie Enyinnaya, a Software Developer based in Lagos, Nigeria" width="28" uk-svg>    
+                <img src="~/assets/images/logo.svg" alt="I'm Chimezie Enyinnaya, a Software Developer based in Lagos, Nigeria" width="30" uk-svg>    
             </a>
         </div>
 
