@@ -10,11 +10,11 @@
             <div class="uk-navbar-toggle uk-hidden@m" uk-toggle="target: #offcanvas" uk-navbar-toggle-icon></div>
 
             <ul class="uk-navbar-nav uk-visible@m">
-                <li><a href="/">Home</a></li>
-                <li><a href="/about">About</a></li>
-                <li><a href="/work">Work</a></li>
-                <li><a href="/blog">Blog</a></li>
-                <li><a href="/contact">Contact</a></li>
+                <li><nuxt-link to="/">Home</nuxt-link></li>
+                <li><nuxt-link to="/about">About</nuxt-link></li>
+                <li><nuxt-link to="/work">Work</nuxt-link></li>
+                <li><nuxt-link to="/blog">Blog</nuxt-link></li>
+                <li><nuxt-link to="/contact">Contact</nuxt-link></li>
             </ul>
         </div>
   </nav>

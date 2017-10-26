@@ -9,11 +9,11 @@
       <div id="offcanvas" uk-offcanvas="mode: push; overlay: true">
         <div class="uk-offcanvas-bar">
           <ul class="uk-nav uk-nav-primary uk-nav-center">
-            <li class="uk-active"><a href="/">Home</a></li>
-            <li><a href="/about">About</a></li>
-            <li><a href="/work">Work</a></li>
-            <li><a href="/blog">Blog</a></li>
-            <li><a href="/contact">Contact</a></li>
+            <li><nuxt-link to="/">Home</nuxt-link></li>
+            <li><nuxt-link to="/about">About</nuxt-link></li>
+            <li><nuxt-link to="/work">Work</nuxt-link></li>
+            <li><nuxt-link to="/blog">Blog</nuxt-link></li>
+            <li><nuxt-link to="/contact">Contact</nuxt-link></li>
           </ul>
         </div>
       </div>
@@ -73,7 +73,7 @@
   .uk-link, a {
     color: #eb3777
   }
-  
+
   .uk-link:hover, a:hover {
     color: #0086c2
   }
@@ -84,7 +84,7 @@
     color: #999 !important
   }
   .uk-nav-primary > li.uk-active > a,
-  .uk-nav-primary > li > a:focus, 
+  .uk-nav-primary > li > a:focus,
   .uk-nav-primary > li > a:hover {
     color: #eb3777 !important
   }
